@@ -39,7 +39,11 @@ a + (a + b) _ c = a a b + c _ +
 ## Para rodar
 
 Existe um _script_ pronto e também o inicializador do servidor de test está em index.js, então basta rodar
+
 `npm run start`
+
 `yarn start`
+
 `node .`
+
 `nodemon .`
