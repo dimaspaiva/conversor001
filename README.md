@@ -22,11 +22,11 @@ Basicamente o algoritmo empilha o sinal e aguarda o próximo sinal, se estiver e
 
 ## Entradas
 
-Para o funcionamento correto, parte-se do pressuposto que a entrada será sempre composta por **N** algarismos e **N-1** sinais, nunca gerando valores como '''1++1 || 1+1+ || +1+1''' ou qualquer outro valor que não siga o padrão de uma equação normal, seja ela escrita com números ou letras.
+Para o funcionamento correto, parte-se do pressuposto que a entrada será sempre composta por **N** algarismos e **N-1** sinais, nunca gerando valores como `1++1 || 1+1+ || +1+1` ou qualquer outro valor que não siga o padrão de uma equação normal, seja ela escrita com números ou letras.
 
 ## Resposta de Base
 
-'''Javascript
+```Javascript
 1 + 1 + 2 = 1 1 + 2 +
 1 + 1 _ 2 = 1 1 2 _ +
 2 _ 2 / 2 = 2 2 _ 2 /
@@ -34,12 +34,12 @@ Para o funcionamento correto, parte-se do pressuposto que a entrada será sempre
 a + b = a b +
 a _ b = a b _
 a + (a + b) _ c = a a b + c _ +
-'''
+```
 
 ## Para rodar
 
 Existe um _script_ pronto e também o inicializador do servidor de test está em index.js, então basta rodar
-'''npm run start'''
-'''yarn start''''
-'''node .''''
-'''nodemon .'''
+`npm run start`
+`yarn start`
+`node .`
+`nodemon .`
