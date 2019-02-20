@@ -1,0 +1,17 @@
+{
+  "name": "conversor001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('teste')",
+    "start": "nodemon index"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
